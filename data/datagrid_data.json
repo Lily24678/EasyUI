@@ -1,0 +1,27 @@
+{"total":24,"rows":[
+	{"id":"FI-SW-001","code":"FI-SW-01","name":"Koi","price":"10","to":"上海","from":"香港"},
+	{"id":"FI-SW-002","code":"FI-SW-02","name":"Loi","price":"11","to":"上海","from":"香港"},
+	{"id":"FI-SW-003","code":"FI-SW-03","name":"Mi","price":"23","to":"上海","from":"香港"},
+	{"id":"FI-SW-004","code":"FI-SW-04","name":"Kk","price":"18","to":"上海","from":"香港"},
+	{"id":"FI-SW-005","code":"FI-SW-05","name":"MO","price":"13","to":"上海","from":"香港"},
+	{"id":"FI-SW-006","code":"FI-SW-06","name":"JJ","price":"13","to":"上海","from":"香港"},
+	{"id":"FI-SW-007","code":"FI-SW-07","name":"GG","price":"13","to":"上海","from":"香港"},
+	{"id":"FI-SW-008","code":"FI-SW-08","name":"ER","price":"13","to":"上海","from":"香港"},
+	{"id":"FI-SW-009","code":"FI-SW-09","name":"RT","price":"13","to":"上海","from":"香港"},
+	{"id":"FI-SW-101","code":"FI-SW-10","name":"TT","price":"13","to":"上海","from":"香港"},
+	{"id":"FI-SW-102","code":"FI-SW-11","name":"YY","price":"13","to":"上海","from":"香港"},
+	{"id":"FI-SW-103","code":"FI-SW-12","name":"CC","price":"13","to":"上海","from":"香港"},
+	{"id":"FI-SW-104","code":"FI-SW-13","name":"COCO","price":"13","to":"上海","from":"香港"},
+	{"id":"FI-SW-105","code":"FI-SW-15","name":"SA","price":"13","to":"上海","from":"香港"},
+	{"id":"FI-SW-106","code":"FI-SW-16","name":"GJ","price":"13","to":"上海","from":"香港"},
+	{"id":"FI-SW-107","code":"FI-SW-17","name":"JG","price":"13","to":"上海","from":"香港"},
+	{"id":"FI-SW-108","code":"FI-SW-18","name":"HY","price":"13","to":"上海","from":"香港"},
+	{"id":"FI-SW-109","code":"FI-SW-19","name":"YU","price":"13","to":"上海","from":"香港"},
+	{"id":"FI-SW-201","code":"FI-SW-20","name":"WW","price":"13","to":"上海","from":"香港"},
+	{"id":"FI-SW-202","code":"FI-SW-21","name":"WQ","price":"13","to":"上海","from":"香港"},
+	{"id":"FI-SW-203","code":"FI-SW-22","name":"QQ","price":"13","to":"上海","from":"香港"},
+	{"id":"FI-SW-204","code":"FI-SW-23","name":"AS","price":"13","to":"上海","from":"香港"},
+	{"id":"FI-SW-205","code":"FI-SW-24","name":"SS","price":"13","to":"上海","from":"香港"}
+],"footer":[
+	{"name":"tatol price","price":"75"}
+]}
