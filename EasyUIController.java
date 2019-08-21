@@ -10,6 +10,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 
 @Controller
@@ -18,7 +19,7 @@ public class EasyUIController {
 	
 	@RequestMapping("list")
 	@ResponseBody
-	public Object list(ModelMap map, HttpServletResponse response,Integer page,Integer rows) throws Exception {
+	public Object list(ModelMap map, HttpServletResponse response,Integer page,Integer rows,String code) throws Exception {
 		String jsonStr = FileUtils.readFileToString(new File("D:\\HBuilderProject\\EasyUI\\data\\datagrid_data.json"));
 		
 		JSONObject jsonObject = JSONObject.parseObject(jsonStr);
@@ -27,7 +28,7 @@ public class EasyUIController {
 		JSONArray footer = jsonObject.getJSONArray("footer");
 		map.put("total", total);
 		map.put("row", row);
-		map.put("footer", footer);	
+		map.put("footer", footer);
 		
 		return JSONObject.parse(jsonStr);
 
