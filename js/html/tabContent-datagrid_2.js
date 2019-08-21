@@ -12,12 +12,12 @@ $('#dg_2').datagrid({
     remoteSort: false,//值false，sorter才生效
     columns:[[
    		{field:'id',hidden:true},
-        {field:'code',title:'Code',width:'20%',align:'center'},
+        {field:'code',title:'Code',width:'20%',align:'center',sortable:true},
         {field:'to',title:'发往',width:'20%',align:'center'},
         {field:'from',title:'产地',width:'20%',align:'center'},
         {field:'name',title:'Name',width:'20%',align:'center'},
         {field:'price',title:'Price',align:'center',width:'20%',sortable:true,
-			sorter:function(a,b){//排序
+			sorter:function(a,b){//重写排序规则
 				a = a.split('/');  
 				b = b.split('/');  
 				if (a[2] == b[2]){  
@@ -38,7 +38,7 @@ $('#dg_2').datagrid({
     },
     
 	pagination:true,//页码
-
+	rownumbers:true,
 
 });
 
@@ -54,5 +54,7 @@ p.pagination({
 //		$("#dg_2").datagrid("loadData",data);
 //	},
 });
+
+
 
 	
