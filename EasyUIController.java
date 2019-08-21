@@ -21,6 +21,14 @@ public class EasyUIController {
 	public Object list(ModelMap map, HttpServletResponse response,Integer page,Integer rows) throws Exception {
 		String jsonStr = FileUtils.readFileToString(new File("D:\\HBuilderProject\\EasyUI\\data\\datagrid_data.json"));
 		
+		JSONObject jsonObject = JSONObject.parseObject(jsonStr);
+		Integer total = jsonObject.getInteger("total");
+		JSONArray row = jsonObject.getJSONArray("row");
+		JSONArray footer = jsonObject.getJSONArray("footer");
+		map.put("total", total);
+		map.put("row", row);
+		map.put("footer", footer);	
+		
 		return JSONObject.parse(jsonStr);
 
 	}
